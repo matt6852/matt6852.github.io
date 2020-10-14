@@ -67,14 +67,12 @@ p{
 }
 
 .footer-link{
-    position: relative;
-    margin-right: 10px;
+    padding: 10px;
+    
     
 }
 .footer-link1{
-    position: relative;
-    margin-left: 10px;
-    
+    padding: 10px;
     
 }
 .skill-row1{
@@ -109,7 +107,7 @@ hr{
 .bottom-container{
     padding-top: 30px;
     background-color: #66BFBF;
-    padding-bottom: 80px;
+    padding-bottom: 20px;
     position: relative;
     margin-bottom: 0px;
 
@@ -130,16 +128,10 @@ hr{
     background-color: lightcoral;
 }
 .mmm{
-    color:#EAF6F6 ;
-    position: absolute;
-    margin-left: 44%;
-    margin-top: 3%;
-    font-size: 0.70rem;
-    padding-top: 20px;
-
-    
-   
-    
+    margin-top: 30px;
+    margin-bottom: 0px;
+    font-size: 0.7rem;
+    color: lightcyan;
 }
 .par{
     margin: 50px auto 100px ;
