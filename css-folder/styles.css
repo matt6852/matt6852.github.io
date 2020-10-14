@@ -1,0 +1,141 @@
+body{
+    margin: 0;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+h2{
+    margin: 0;
+    color: #66BFBF;
+    font-family: 'Sacramento', cursive;
+    
+    font-weight: normal;
+    line-height: 3;
+    font-size: 2rem;
+    
+} 
+h3{
+    margin: 0;
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    
+    
+}
+
+h1{
+  
+    color: #66BFBF;
+    font-family: 'Sacramento', cursive;
+    font-size: 562.5%;
+    margin: 50px auto 0 auto;
+    line-height: 2;
+}
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    
+}
+
+.top{
+    background-color:#EAF6F6;
+    position: relative;
+    padding-top: 100px;
+    
+    
+}
+.boy1{
+    width: 15%;
+    float: left;
+    margin-left: 20%;
+}
+
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+.bottom-cloud{
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+
+}
+.
+.footer-link{
+    position: relative;
+    margin-right: 10px;
+    ;
+}
+.footer-link1{
+    position: relative;
+    margin-left: 10px;
+    
+    
+}
+.skill-row1{
+    margin: 45px auto 100px auto;
+    width: 50%;
+    text-align: left;
+    line-height: 2;
+}
+.skill-row2{
+    margin: 100px auto 100px ;
+    width: 50%;
+    text-align: left;
+    line-height: 2;
+}
+.chill{
+    width: 25%;
+    float: left;
+    padding-right: 30px;
+}
+.comp{
+    width: 25%;
+    float: right;
+    padding-left: 30px;
+
+}
+hr{
+    width: 10%;
+    border: dotted 10px;
+    padding: 10px;
+    color: gray;
+
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+}
+.bottom-container{
+    padding-top: 10px;
+    background-color: #66BFBF;
+    padding-bottom: 50px;
+    position: relative;
+
+
+}
+.butt{
+    color:white;
+    font-size: 30px;
+    font-weight: 100;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    border-radius: 20px;
+    background-color:#3D94F6; ;
+    
+}
+
+.mmm{
+    color:#EAF6F6 ;
+    position: absolute;
+    margin-left: 42%;
+    margin-top: 2%;
+   
+    
+}
+.par{
+    margin: 50px auto 100px ;
+    width: 50%;
+    text-align: center;
+    line-height: 2; 
+}
