@@ -1,0 +1,16 @@
+.nav{
+    border: 3px solid red;
+    display: flex;
+   
+}
+
+.home{
+    order: 1;
+
+}
+.search{
+
+}
+.logout{
+order: -1;
+}
