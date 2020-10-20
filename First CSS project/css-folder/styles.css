@@ -6,6 +6,9 @@ body{
    
 }
 
+#mountain{
+    width: 35%;
+}
 h2{
     margin: 0;
     color: #66BFBF;
@@ -32,7 +35,7 @@ h1{
     color: #66BFBF;
     font-family: 'Sacramento', cursive;
     font-size: 562.5%;
-    margin: 50px auto 0 auto;
+    margin: 2em auto 0 auto;
     
 }
 p{
@@ -44,7 +47,7 @@ p{
 .top{
     background-color:#EAF6F6;
     position: relative;
-    padding-top: 100px;
+    padding-top: 3em;
     
     
 }
@@ -55,14 +58,16 @@ p{
 }
 
 .top-cloud{
+    width: 15%;
     position: absolute;
-    right: 300px;
-    top: 50px;
+    right: 10em;
+    top: 4em;
 }
 .bottom-cloud{
+    width: 15%;
     position: absolute;
-    left: 300px;
-    bottom: 300px;
+    left: 15em;
+    bottom: 22rem;
 
 }
 
