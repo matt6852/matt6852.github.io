@@ -72,16 +72,16 @@ p{
 }
 
 .footer-link{
-    padding: 10px;
+    padding: 1em;
     
     
 }
 .footer-link1{
-    padding: 10px;
+    padding: 1em;
     
 }
 .skill-row1{
-    margin: 45px auto 100px auto;
+    margin: 3em auto 6em auto;
     width: 50%;
     text-align: left;
     line-height: 2;
@@ -95,24 +95,24 @@ p{
 .chill{
     width: 25%;
     float: left;
-    padding-right: 30px;
+    padding-right: 2em;
 }
 .comp{
     width: 25%;
     float: right;
-    padding-left: 30px;
+    padding-left: 2em;
 
 }
 hr{
     width: 10%;
-    border: dotted 10px;
+    border: dotted 0.8em;
     color: gray;
     border-bottom: none;
 }
 .bottom-container{
-    padding-top: 30px;
+    padding-top: 2em;
     background-color: #66BFBF;
-    padding-bottom: 20px;
+    padding-bottom: 1.2em;
     position: relative;
     margin-bottom: 0px;
 
@@ -120,26 +120,26 @@ hr{
 }
 .butt{
     color:white;
-    font-size: 30px;
+    font-size: 2em;
     font-weight: 100;
-    margin-bottom: 30px;
-    margin-top: 30px;
-    border-radius: 20px;
+    margin-bottom: 2em;
+    margin-top: 2em;
+    border-radius: 0.6em;
     background-color:#3D94F6; 
-    padding: 20px;
+    padding: 0.6em;
     
 }
 .butt:hover{
     background-color: lightcoral;
 }
 .mmm{
-    margin-top: 30px;
+    margin-top: 2em;
     margin-bottom: 0px;
     font-size: 0.7rem;
     color: lightcyan;
 }
 .par{
-    margin: 50px auto 100px ;
+    margin: 4em auto 8em ;
     width: 30%;
     line-height: 2; 
 }
