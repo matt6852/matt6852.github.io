@@ -48,6 +48,7 @@ h1 {
   margin-left: 0;
   font-family: cursive;
   font-size: 2.1rem;
+  color: rgb(43, 42, 42);
 }
 
 /* section features */
@@ -91,7 +92,7 @@ p {
 
 #testimonials {
   text-align: center;
-  background-color: #ff4c68;
+  background-color: #ef8172;
   color: white;
   padding: 8%;
 }
@@ -103,7 +104,7 @@ p {
 }
 
 #press {
-  background-color: #ff4c68;
+  background-color: #ef8172;
   text-align: center;
   padding-bottom: 3%;
 }
@@ -143,6 +144,7 @@ p {
   font-size: 0.1rem;
 }
 #footer > p {
+  margin: 5% 0 2%;
   font-size: small;
 }
 .social {
