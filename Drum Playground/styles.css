@@ -1,0 +1,135 @@
+body {
+  min-width: 90vw;
+  min-height: 90vh;
+  text-align: center;
+  background: url(../images/myDrums.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  font-size: 5rem;
+  color:  #19aec9;
+  font-family: 'Redressed', cursive;
+  text-shadow: 3px 0 #552d3f;
+  letter-spacing: 3px;
+
+}
+
+footer {
+  color: #151616;
+  font-family: sans-serif;
+}
+
+.w {
+  background-image: url(../images/crash.png);
+  background-size: cover;
+  background-position: top;
+
+}
+
+.a {
+ background-image: url(../images/kick.png);
+  background-size: cover;
+  background-position: top;
+}
+
+.s {
+   background-image: url(../images/snare.png);
+  background-size: cover;
+  background-position: top;
+
+}
+
+.d {
+   background-image: url(../images/tom1.png);
+  background-size: cover;
+  background-position: top;
+
+}
+
+.j {
+   background-image: url(../images/tom2.png);
+  background-size: cover;
+  background-position: top;
+
+}
+
+.k {
+   background-image: url(../images/tom3.png);
+  background-size: cover;
+  background-position: top;
+
+}
+
+.l {
+   background-image: url(../images/tom4.png);
+  background-size: cover;
+  background-position: top;
+
+}
+
+.set {
+  min-width: 50%;
+  min-height: 50%;
+  display: flex;
+  margin: 10% auto;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.pressed {
+  transform: scale(1.1);
+  color: whitesmoke;
+  border: 5px solid #c22722;
+}
+
+
+.red {
+  color: red;
+}
+
+.drum {
+  height:  130px;
+  width: 130px;
+  outline: none;
+  border: 10px solid #385dc5;
+  font-size: 3rem;
+  font-family: cursive;
+  line-height: 1;
+  font-weight: 900;
+  color: #DA0463;
+  text-shadow: 3px 0 #dce4e7;
+  border-radius: 150px;
+  display: inline-block;
+  /* width: 150px;
+  height: 150px; */
+  text-align: center;
+  /* margin: 10px; */
+  background-color: white;
+  /* flex: 1 50px; */
+  transition: all .2s ease-in-out;
+
+
+  
+}
+/* footer{
+  padding-bottom: 1%;
+  margin-top: 30%;
+} */
+.drum:hover{
+  transform: scale(1.1);
+  color: whitesmoke;
+  border: 5px solid #c22722;
+}
+
+@media (max-width:600px){
+  body{
+    background-color: #DA0463;
+  }
+}
