@@ -24,14 +24,14 @@ document.querySelector('.check').addEventListener('click', function () {
     // When wins
   } else if (guess === secretNumber) {
     document.querySelector('.message').textContent = 'Correct number 💥!!!';
-  
-    document.querySelector('.highscore').textContent = highScore;
+
     document.querySelector('.number').textContent = secretNumber;
     document.querySelector('body').style.backgroundColor = winBackground;
     document.querySelector('.number').style.color = 'gold';
     document.querySelector('.number').style.backgroundColor = 'black';
-    if(highScore<score){
-      highScore=score
+    if (highScore < score) {
+      highScore = score;
+      document.querySelector('.highscore').textContent = highScore;
     }
     // document.querySelector('.number').style.width="30rem"
     // when too low
@@ -59,7 +59,7 @@ document.querySelector('.check').addEventListener('click', function () {
 const rest = document
   .querySelector('.again')
   .addEventListener('click', function () {
-      score=20
+    score = 20;
     document.querySelector('.score').textContent = score;
     secretNumber = Math.floor(Math.random() * 20) + 1;
     // document.querySelector('.number').textContent = secretNumber;
