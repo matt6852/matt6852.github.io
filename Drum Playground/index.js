@@ -16,8 +16,8 @@ for (let element of document.querySelectorAll(".drum")) {
 
 // for keyboord
 document.addEventListener("keypress", function (event) {
-  makeSound(event.key);
-  buttonAnimation(event.key);
+  makeSound(event.code);
+  buttonAnimation(event.code);
 });
 
 // alert("I got clicked");
@@ -41,37 +41,38 @@ document.addEventListener("keypress", function (event) {
 // function for all events
 function makeSound(key) {
   switch (key) {
-    case "w":
+    case "Keyw":
       let crash = new Audio("./sounds/crash.mp3");
       crash.play();
       break;
-    case "a":
+    case "KeyA":
       let kick = new Audio("./sounds/kick-bass.mp3");
       kick.play();
       break;
-    case "s":
+    case "KeyS":
       let snare = new Audio("./sounds/snare.mp3");
       snare.play();
       break;
-    case "d":
+    case "KeyD":
       let tom1 = new Audio("./sounds/tom-1.mp3");
       tom1.play();
       break;
-    case "j":
+    case "KeyJ":
       let tom2 = new Audio("./sounds/tom-2.mp3");
       tom2.play();
       break;
-    case "k":
+    case "KeyK":
       let tom3 = new Audio("./sounds/tom-3.mp3");
       tom3.play();
       break;
-    case "l":
+    case "KeyL":
       let tom4 = new Audio("./sounds/tom-4.mp3");
       tom4.play();
       k;
       break;
   }
 }
+
 function buttonAnimation(curent) {
   let activ = document.querySelector("." + curent);
   activ.classList.add("pressed");
