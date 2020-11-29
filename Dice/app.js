@@ -50,12 +50,15 @@ btnHold.addEventListener("click", function () {
     document.querySelector(`.player--total-${activePlayer}`).textContent =
       scores[activePlayer];
 
-    if (scores[activePlayer] >= 100) {
+    if (scores[activePlayer] >= 10) {
       game = false;
       rolldice.setAttribute("src", "./image/OptimizedWin.jpg");
       document.querySelector(`.p--${activePlayer}`).textContent = "ПОБЕДА";
       document.querySelector(`.player--total-${activePlayer}`).textContent =
         "🏆";
+      document.querySelector(".player-score-0").textContent = 0;
+      document.querySelector(".player-score-1").textContent = 0;
+
       document.querySelector(`.p--${activePlayer}`).classList.remove("active");
     } else {
       document.querySelector(`.player-score-${activePlayer}`).textContent = 0;
