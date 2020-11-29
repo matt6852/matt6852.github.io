@@ -50,7 +50,7 @@ btnHold.addEventListener("click", function () {
     document.querySelector(`.player--total-${activePlayer}`).textContent =
       scores[activePlayer];
 
-    if (scores[activePlayer] >= 10) {
+    if (scores[activePlayer] >= 100) {
       game = false;
       rolldice.setAttribute("src", "./image/win.jpg");
       document.querySelector(`.p--${activePlayer}`).textContent = "ПОБЕДА";
