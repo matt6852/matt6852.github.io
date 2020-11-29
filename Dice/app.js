@@ -26,7 +26,7 @@ let game = true;
 btnRoll.addEventListener("click", function () {
   if (game) {
     const dice = Math.floor(Math.random() * 6) + 1;
-    rolldice.setAttribute("src", "/image/dice-" + dice + ".png");
+    rolldice.setAttribute("src", "../image/dice-" + dice + ".png");
     console.log(btnRoll, dice);
     if (dice !== 1) {
       currentScore += dice;
@@ -52,7 +52,7 @@ btnHold.addEventListener("click", function () {
 
     if (scores[activePlayer] >= 10) {
       game = false;
-      rolldice.setAttribute("src", "./image/win.jpg");
+      rolldice.setAttribute("src", "../image/win.jpg");
       document.querySelector(`.p--${activePlayer}`).textContent = "ПОБЕДА";
       document.querySelector(`.player--total-${activePlayer}`).textContent =
         "🏆";
@@ -74,6 +74,6 @@ reset.addEventListener("click", function () {
   document.querySelector(".player-score-1").textContent = 0;
   document.querySelector(".player--total-1").textContent = 0;
   document.querySelector(".player--total-0").textContent = 0;
-  rolldice.setAttribute("src", "./image/dice-6.png");
+  rolldice.setAttribute("src", "../image/dice-6.png");
   player0.classList.add("active");
 });

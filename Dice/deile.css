@@ -147,7 +147,7 @@ span{
 @media (min-width: 35rem){
 
     .child-1{
-    background:  url(/image/pexels-pixabay-209679.jpg)center/cover;
+    background:  url(../image/pexels-pixabay-209679.jpg)center/cover;
     /* border: 1px solid red; */
     width: 80%;
     display: flex;
@@ -158,7 +158,7 @@ span{
 }
 
 .child-2{
-     background: url(/image/jeshoots-com-eCktzGjC-iU-unsplash.jpg)center/cover;
+     background: url(../image/jeshoots-com-eCktzGjC-iU-unsplash.jpg)center/cover;
      width: 80%;
     /* border: 1px solid red; */
     display: flex;
@@ -168,7 +168,7 @@ span{
     order: 2;
 }
 .child-3{
-     background: url(/image/mika-baumeister-HUyICL8qbEE-unsplash.jpg)center/cover;
+     background: url(../image/mika-baumeister-HUyICL8qbEE-unsplash.jpg)center/cover;
     /* border: 1px solid red; */
     width: 80%;
     display: flex;
@@ -189,6 +189,9 @@ span{
     background-color: rgb(119, 158, 230);
     color: whitesmoke;
     
+}
+img{
+    width: 50%;
 }
 
 
