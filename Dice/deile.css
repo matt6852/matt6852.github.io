@@ -44,7 +44,7 @@
 }
 
 .child-2 {
-  background: url(/image/jeshoots-com-eCktzGjC-iU-unsplash.jpg) center/cover;
+  background: url(../image/jeshoots-com-eCktzGjC-iU-unsplash.jpg) center/cover;
   width: 80%;
   /* border: 1px solid red; */
   display: flex;
@@ -59,8 +59,7 @@
     display:
 }  */
 .child-3 {
-  background: url(../image/mika-baumeister-HUyICL8qbEE-unsplash.jpg)
-    center/cover;
+  background: url(./image/mika-baumeister-HUyICL8qbEE-unsplash.jpg) center/cover;
   /* border: 1px solid red; */
   width: 80%;
   display: flex;
