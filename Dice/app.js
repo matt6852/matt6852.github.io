@@ -52,7 +52,7 @@ btnHold.addEventListener("click", function () {
 
     if (scores[activePlayer] >= 100) {
       game = false;
-      rolldice.setAttribute("src", "./image/win.jpg");
+      rolldice.setAttribute("src", "./image/OptimizedWin.jpg");
       document.querySelector(`.p--${activePlayer}`).textContent = "ПОБЕДА";
       document.querySelector(`.player--total-${activePlayer}`).textContent =
         "🏆";
