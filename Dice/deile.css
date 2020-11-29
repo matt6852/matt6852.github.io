@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+
+.insraction{
+
+    display: none;
+    
+}
+
+
+
+/* pop up window */
+
+/* end of pop up window */
+
+.parent{
+
+    min-width: 95vw;
+    min-height: 100vh;
+    border: 2px solid black;
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+
+.active{
+    background: linear-gradient(90deg, rgb(194, 191, 238) 0%, rgba(203,27,116,0.1856092778908438) 100%, rgba(0,212,255,1) 100%);
+    
+
+}
+
+.child-1{
+    background:  url(../image/pexels-pixabay-209679.jpg)center/cover;
+    /* border: 1px solid red; */
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+    order: 1;
+}
+
+.child-2{
+     background: url(../image/jeshoots-com-eCktzGjC-iU-unsplash.jpg)center/cover;
+     width: 80%;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 10;
+    order: 3;
+    
+}
+
+/* .hidden{
+    display: none ;
+    display:
+}  */
+.child-3{
+     background: url(../image/mika-baumeister-HUyICL8qbEE-unsplash.jpg)center/cover;
+    /* border: 1px solid red; */
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+    order: 2;
+
+}
+
+
+.img-dice{
+    /* display: fixed; */
+    border-radius: 50%;
+    border-style: dashed;
+    border-color: rgba(129, 129, 212, 0.473);
+}
+.score{
+    display: flex;
+    justify-content:flex-end
+}
+.player{
+    margin-top: 1rem;
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+    font-family: cursive;
+    color: rgb(180, 101, 92);
+}
+.player--total-0{
+    font-size: 4rem;
+    color: rgb(253, 234, 65);
+    margin-bottom: 3rem;
+    
+}
+.player--total-1{
+    font-size: 4rem;
+    color: rgb(253, 234, 65);
+    margin-bottom: 3rem;
+}
+.score{
+    margin-bottom: 1rem;
+}
+.score p{
+    margin-right: 2rem;
+    color: white;
+}
+.btn{
+    /* display: inline-block; */
+    margin: 0.8rem;
+    /* width: 60%; */
+    /* height: 3rem; */
+    padding: 1rem;
+    border-radius: 4rem;
+    outline: none;
+    background-color: rgb(119, 158, 230);
+    color: whitesmoke;
+    
+}
+.btn:hover{
+    color: rgb(119, 158, 230);
+    background-color: rgb(224, 235, 207);
+    
+}
+
+
+
+span{
+    display: inline-block;
+    width: 4rem;
+    margin-right: -1.5rem;
+    font-size: 2rem;
+    padding: 0.3rem;
+    margin-left: 0.7rem;
+    border: 1px solid;
+}
+
+/* media */
+@media (min-width: 35rem){
+
+    .child-1{
+    background:  url(/image/pexels-pixabay-209679.jpg)center/cover;
+    /* border: 1px solid red; */
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+    order: 1;
+}
+
+.child-2{
+     background: url(/image/jeshoots-com-eCktzGjC-iU-unsplash.jpg)center/cover;
+     width: 80%;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 2;
+    order: 2;
+}
+.child-3{
+     background: url(/image/mika-baumeister-HUyICL8qbEE-unsplash.jpg)center/cover;
+    /* border: 1px solid red; */
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+    order: 3;
+
+}
+.btn{
+    /* display: inline-block; */
+    margin: 0.8rem;
+    width: 60%;
+    /* height: 3rem; */
+    padding: 1rem;
+    border-radius: 4rem;
+    outline: none;
+    background-color: rgb(119, 158, 230);
+    color: whitesmoke;
+    
+}
+
+
+}
+
