@@ -80,4 +80,5 @@ reset.addEventListener("click", function () {
   player0.classList.add("active");
   document.querySelector(".p--0").textContent = "Игрок-1";
   document.querySelector(".p--1").textContent = "Игрок-2";
+  activePlayer = 0;
 });
