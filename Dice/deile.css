@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
 }
 
 .insraction {
@@ -81,15 +82,16 @@
 }
 .player {
   margin-top: 1rem;
-  font-size: 2.5rem;
+  font-size: 1.8rem;
   letter-spacing: 2px;
-  font-family: cursive;
+  font-family: "Open Sans", sans-serif;
   color: rgb(180, 101, 92);
 }
 .player--total-0 {
   font-size: 4rem;
   color: rgb(253, 234, 65);
   margin-bottom: 3rem;
+  font-weight: 800;
 }
 .player--total-1 {
   font-size: 4rem;
@@ -105,7 +107,7 @@
 }
 .btn {
   /* display: inline-block; */
-  margin: 0.8rem;
+  margin: 0.5rem;
   /* width: 60%; */
   /* height: 3rem; */
   padding: 1rem;
@@ -130,7 +132,7 @@ span {
 }
 
 /* media */
-@media (min-width: 35rem) {
+@media (min-width: 28rem) {
   .child-1 {
     background: url(./image/player1.jpg) center/cover;
     /* border: 1px solid red; */
