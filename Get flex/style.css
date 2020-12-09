@@ -87,7 +87,7 @@ ul {
 .banner {
   min-height: 100vh;
   background: linear-gradient(to top, rgba(147, 230, 161, 0.1), #8396ffb3),
-    url(../img/pexels-li-sun-2294353.jpg) center/cover fixed no-repeat;
+    url(./img/pexels-li-sun-2294353.jpg) center/cover fixed no-repeat;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -324,7 +324,7 @@ ul {
 #members {
   padding: 3rem 0;
   background: linear-gradient(to top, rgba(147, 230, 161, 0.1), #8396ffb3),
-    url(../img/members.jpg) center/cover no-repeat;
+    url(./img/members.jpg) center/cover no-repeat;
   color: rgb(255, 251, 246);
 }
 
