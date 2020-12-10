@@ -7,6 +7,10 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+:root {
+  --light: ;
+}
+
 /* .header{
     min-height: 100vw;
 } */
@@ -88,6 +92,7 @@ ul {
   justify-content: space-around;
   align-items: center;
   flex-direction: column;
+  background-attachment: fixed;
   color: rgb(56, 55, 55);
 }
 .banner h1 {
@@ -98,9 +103,38 @@ ul {
   font-size: 2.5rem;
   text-transform: uppercase;
   color: rgb(226, 226, 133);
+  animation: fromUp 2s ease-in-out;
+  backface-visibility: hidden;
 }
 /* animation */
+@keyframes fromUp {
+  0% {
+    opacity: 0;
+    transform: translateY(5rem);
+    color: rgb(134, 224, 106);
+  }
+  85% {
+    transform: translateY(-3rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 
+@keyframes fromDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-5rem);
+  }
+  85% {
+    transform: translateY(3rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 /* end of animation */
 .p {
   margin-top: 5rem;
@@ -108,7 +142,7 @@ ul {
   font-size: 2.5rem;
   color: rgb(255, 247, 253);
   font-family: "East Sea Dokdo", cursive;
-  /* animation: fromDown 2s ease-in-out; */
+  animation: fromDown 2s ease-in-out;
 }
 
 @media screen and (min-width: 48rem) {
