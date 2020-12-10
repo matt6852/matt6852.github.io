@@ -7,7 +7,6 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-
 /* .header{
     min-height: 100vw;
 } */
@@ -103,7 +102,7 @@ ul {
   backface-visibility: hidden;
 }
 /* animation */
-@keyframes fromUp {
+/* @keyframes fromUp {
   0% {
     opacity: 0;
     transform: translateY(5rem);
@@ -130,7 +129,7 @@ ul {
     opacity: 1;
     transform: translateY(0);
   }
-}
+} */
 /* end of animation */
 .p {
   margin-top: 5rem;
