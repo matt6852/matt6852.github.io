@@ -290,7 +290,7 @@ ul {
 #members {
   padding: 3rem 0;
   background: linear-gradient(to top, rgba(147, 230, 161, 0.1), #8396ffb3),
-    url(../img/members.jpg) center/cover no-repeat;
+    url(./img/members.jpg) center/cover no-repeat;
   color: rgb(255, 251, 246);
 }
 
