@@ -98,38 +98,9 @@ ul {
   font-size: 2.5rem;
   text-transform: uppercase;
   color: rgb(226, 226, 133);
-  /* animation: fromUp 2s ease-in-out; */
-  backface-visibility: hidden;
 }
 /* animation */
-/* @keyframes fromUp {
-  0% {
-    opacity: 0;
-    transform: translateY(5rem);
-    color: rgb(134, 224, 106);
-  }
-  85% {
-    transform: translateY(-3rem);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
 
-@keyframes fromDown {
-  0% {
-    opacity: 0;
-    transform: translateY(-5rem);
-  }
-  85% {
-    transform: translateY(3rem);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-} */
 /* end of animation */
 .p {
   margin-top: 5rem;
