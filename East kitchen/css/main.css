@@ -1,0 +1,364 @@
+/* font-family: 'Charmonman', cursive;
+font-family: 'Montserrat', sans-serif; */
+
+.info {
+  background: #c5ddda;
+}
+.primary-color {
+  color: #696047;
+}
+body {
+  color: #c5ddda;
+  background: url(../img/kitchen.jpg) center/cover fixed no-repeat;
+}
+
+.primary {
+  font-family: "Montserrat", sans-serif;
+}
+.info a {
+  transition: all 0.2s ease-in-out;
+}
+.info a:hover {
+  color: black;
+}
+/* banner */
+
+/* nav-bar */
+.navbar{
+  background-color: #c5ddda;
+  padding: 1.2rem 1.2rem;
+  transition: all .4s;
+
+}
+.navbar-background{
+  padding: 0.5rem 1.2rem;
+}
+
+.navbar-brand{
+  font-size: 1.4rem;
+  font-weight: bolder;
+  text-shadow: 0 10px 1rem rgb(88, 85, 85);
+  transition: all .4s;
+  
+}
+.navbar-brand:hover{
+  color: rgb(218, 106, 106) !important;
+  
+}
+.nav-link{
+  font-size: 1.5rem;
+  padding: 0 3rem;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.767);
+  transition: all .4s;
+  margin:  0 1rem;
+
+}
+.nav-link:hover{
+  color: rgb(88, 85, 85);
+  background-color: #ffeaee;
+  border-radius: 3rem;
+
+}
+.nav-btn{
+  background-color:#ffeaee ;
+  border-radius: 2rem;
+  transition: all .4s;
+  font-size: 1.5rem;
+}
+
+.nav-btn:hover{
+  color: rgb(218, 106, 106);
+  background-color: rgba(0, 0, 0, 0.466) ;
+   box-shadow: 0 10px 1rem rgb(88, 85, 85);
+
+}
+.toggler-btn{
+  /* border: 2px solid black; */
+  padding: 5px;
+  transition: all .5s;
+}
+.bar{
+  width: 40px;
+  height: 3px;
+  margin: 7px;
+  background-color:rgba(0, 0, 0, 0.466) ;
+  transition: all .4s;
+
+}
+.change .bar1{
+  transform: rotate(-45deg) translate(-8px,6px);
+
+}
+.change .bar2{
+  opacity: 0;
+
+}
+.change .bar3{
+  transform: rotate(45deg) translate(-8px,-7px);
+
+}
+
+
+/*  end  of nav-bar */
+
+/* animation */
+@keyframes infinity {
+  0% {
+    transform: translateX(-50%) translateY(-50%) scale(1.2);
+  }
+  50% {
+    color: rgb(218, 106, 106);
+  }
+}
+/* end of animation */
+#header {
+  background: linear-gradient(
+      180deg,
+      rgba(2, 0, 36, 1) 0%,
+      rgba(52, 9, 31, 0.1856092778908438) 100%
+    ),
+    url(../img/mosque.jpg) center/cover fixed no-repeat;
+  min-height: calc(100vh - 5.7rem);
+  position: relative;
+}
+.banner-text {
+  font-family: "Charmonman", cursive;
+  font-weight: 400;
+  color: #ffeaee;
+  border-bottom: 1rem white dotted;
+  padding: 3rem;
+  border-radius: 5rem;
+}
+.height-90 {
+  min-height: calc(100vh - 8.7rem);
+}
+
+.btn-main-btn {
+  display: inline-block;
+  color: #f1e0de;
+  font-size: 2rem;
+  padding: 1rem;
+  border: 2px solid #f1e0de;
+  border-radius: 2rem;
+  transition: all 0.2s ease-in-out;
+  font-family: monospace;
+}
+.btn-main-btn:hover {
+  background-color: #f1e0de;
+  color: rgb(190, 75, 75);
+  box-shadow: 0 5px 5px black;
+  text-decoration: none;
+}
+.header-link {
+  position: absolute;
+  left: 50%;
+  top: 90%;
+  transform: translateX(-50%) translateY(-50%);
+  background-color: rgba(255, 255, 255, 0.377);
+  border-radius: 1rem;
+  transition: all 0.2s ease-in-out;
+  color: #000;
+  animation: infinity 2s infinite;
+}
+.header-link:hover {
+  color: rgb(190, 75, 75);
+  background-color: rgba(255, 255, 255, 0.644);
+  animation: none;
+}
+
+.display {
+  font-size: 6rem;
+  letter-spacing: 5px;
+}
+@media screen and (max-width: 60rem) {
+  .display {
+    font-size: 2rem;
+    letter-spacing: 3px;
+  }
+  .header-link {
+    font-size: 1rem;
+    top: 95%;
+  }
+}
+/* special section */
+
+.item-container {
+  position: relative;
+  /* for the links */
+  overflow: hidden;
+  background: linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0));
+  transition: all 0.4s;
+}
+.item-container:hover .item-img {
+  transform: scale(1.2);
+  opacity: 0.5;
+}
+.item-img {
+  transition: all 0.4s;
+}
+.item-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #f1e0de;
+  padding-right: 2rem;
+  border-right: 8px solid #f1e0de;
+  border-radius: 5rem;
+  transition: all 0.4s;
+  opacity: 0;
+  letter-spacing: 2px;
+}
+.item-container:hover .item-text {
+  opacity: 1;
+}
+
+
+.item-container:hover {
+  outline: 1rem solid rgb(190, 75, 75);
+  outline-offset: 1rem;
+  outline-style: double;
+}
+
+/* pricing */
+
+#pricing {
+  background-color: #c5dddaaf;
+}
+
+.single-item {
+  border: 3px solid rgb(102, 26, 26);
+  border-radius: 1rem;
+  transition: all 0.2s;
+}
+.text {
+  border-bottom: 5px dotted;
+}
+
+.single-item:hover {
+  box-shadow: 0 10px 1rem rgb(88, 85, 85);
+}
+.single-item p {
+  color: #ffeaee;
+}
+.text-price-name{
+  text-shadow: 0 1rem 1rem ;
+}
+/* end of pricing */
+/* about section */
+
+.about-info{
+  padding: 1rem;
+  background-color: #353d3ca4;
+  border-radius: 5rem;
+  transition: all .4s;
+}
+.about-info:hover{
+    box-shadow: 0 10px 1rem rgb(88, 85, 85);
+    transform: scale(1.01);
+
+}
+
+
+.text-about{
+  color: #ffeaee;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-size: 1.2rem;
+}
+.text-about-em{
+  text-decoration: underline;
+
+}
+
+/* about */
+
+.about-picteres{
+  position: relative;
+
+}
+.about-img{
+  border-radius: 2rem;
+  position: absolute;
+  bottom: 20%;
+  left: 10%;
+  opacity: .9;
+  transition: all .4s;
+}
+.about-img:hover{
+  transform: scale(1.04);
+  opacity: 1;
+
+  
+
+}
+
+/* review section */
+
+.img{
+  width: 200px;
+}
+
+
+.review-item{
+  background-color: #353d3ca4;
+  backface-visibility: visible;
+  border-radius: 4rem;
+clip-path: polygon(0 0, 89% 0, 100% 51%, 90% 100%, 51% 100%, 0 100%, 4% 53%);
+}
+.name-costomer{
+  color:#ffeaee ;
+}
+/* end of review section */
+
+/* supper food */
+
+
+.card-background{
+  background-color:#353d3c !important; 
+
+}
+
+.cards{
+  box-shadow:  0 2rem 3rem rgb(34, 32, 32);
+  transition: all .4s;
+}
+.cards:hover{
+  transform: scale(.98);
+  box-shadow:  0 3rem 4rem rgb(34, 32, 32);
+
+}
+/* end of supper food */
+
+/* contact */
+.height-60{
+  min-height: 60vh;
+}
+#contact .card{
+  background: rgba(0, 0, 0, 0.432);
+  transition: all .4s;
+
+}
+#contact .card:hover{
+  background-color: rgba(0, 0, 0, 0.808);
+}
+
+
+/* end of contact */
+/* footer */
+#back-to-top{
+  display:inline-block;
+  background-color: white;
+  border-radius: 1rem;
+}
+.scrollTop{
+  position: fixed;
+  bottom:5rem ;
+  right: 1rem;
+
+}
+/* end of  footer */
+
+
+
