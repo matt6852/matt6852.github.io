@@ -87,12 +87,12 @@ ul {
 .banner {
   min-height: 100vh;
   background: linear-gradient(to top, rgba(147, 230, 161, 0.1), #8396ffb3),
-    url(./img/pexels-li-sun-2294353.jpg) center/cover fixed no-repeat;
+    url(./img/pexels-li-sun-2294353.jpg) center/cover fixed no-repeat fixed;
   display: flex;
   justify-content: space-around;
   align-items: center;
   flex-direction: column;
-  background-attachment: fixed;
+
   color: rgb(56, 55, 55);
 }
 .banner h1 {
