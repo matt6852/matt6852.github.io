@@ -86,12 +86,13 @@ ul {
 /* banner */
 .banner {
   min-height: 100vh;
-  background: url(./img/header.jpg) center/cover fixed no-repeat;
+  background: linear-gradient(to top, rgba(147, 230, 161, 0.1), #8396ffb3),
+    url(./img/pexels-li-sun-2294353.jpg) center/cover fixed no-repeat;
   display: flex;
   justify-content: space-around;
   align-items: center;
   flex-direction: column;
-
+  background-attachment: fixed;
   color: rgb(56, 55, 55);
 }
 .banner h1 {
