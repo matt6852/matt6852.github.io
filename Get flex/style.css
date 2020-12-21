@@ -86,7 +86,7 @@ ul {
 /* banner */
 .banner {
   min-height: 100vh;
-  background: url(./img/header.jpg) center/cover fixed no-repeat fixed;
+  background: url(./img/header.jpg) center/cover fixed no-repeat;
   display: flex;
   justify-content: space-around;
   align-items: center;
