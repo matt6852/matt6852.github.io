@@ -365,7 +365,7 @@ h1{
 /* end of about */
 /* projects */
 #projects{
-        background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(15,9,52,0.1856092778908438) 100%),url(/img/pexels-pixabay-270348.jpg)center/cover no-repeat fixed;
+        background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(15,9,52,0.1856092778908438) 100%),url(../img/pexels-pixabay-270348.jpg)center/cover no-repeat fixed;
         min-height: 100vh;
         
 
