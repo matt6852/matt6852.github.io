@@ -210,19 +210,36 @@ h1 {
 }
 /* section about */
 #about {
+  position: relative;
   text-align: center;
   padding: 2rem 0.5rem;
   min-width: 95vw;
   min-height: 95vh;
   margin: 0 auto;
-  background-color: #22223b;
+  background-color: #22223ba9;
 
   color: #f2e9e4;
 }
+
+.bg-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  opacity: 0.5;
+  overflow: hidden;
+}
+.bg-video__content {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 .about__title-text {
   padding: 1rem 0;
   margin: 2rem 0;
-  width: 30%;
   border-radius: 2rem;
   display: inline-block;
   font-size: 4rem;
