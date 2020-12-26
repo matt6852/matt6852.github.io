@@ -23,8 +23,8 @@
       <div class="banner-main">
         <h1>
           <span class="banner word-1">Front-end</span>
-          <span class="banner word-2">
-            Full-Stack <button class="click">Hire me!</button>
+           <span class="banner word-2">
+            Full-Stack  <a class="click" href="#sendMessage">Hire me!</a>
           </span>
           <span class="banner word-3">Back-end</span>
         </h1>
@@ -210,9 +210,20 @@
         <h2 class="projects__title-text">contact me</h2>
       </div>
       <div class="contacts__center">
-        <div class="contact__informarion contact-items">some info</div>
+        <div class="contact__informarion contact-items"> <h3 class="contacnt_info">socila links :</h3>
+           <ul class="social-links">
+          <li class="social-link"> find me here &rarr; <a href="https://vk.com/mattchin" target="_blank"><i class="fab fa-vk socila-icon"></i></a></li>
+          <li class="social-link spacil">second chance &rarr; <a href="https://instagram.com/matt_newborn?igshid=1vynmm5j159yl" target="_blank"><i class="fab fa-instagram  socila-icon"></i></a></li>
+          <li class="social-link">last chance &rarr; <a href="https://www.facebook.com/profile.php?id=100023386068140" target="_blank"><i class="fab fa-facebook-square socila-icon"></i></a></li>
+        
+         
+          
+        </ul>
+        </div>
+       
         <div class="contact-items">
-          <form action="" class="contact__form ">
+          <div><h3 class="title-contacts">send a messege now!</h3></div>
+          <form action="https://formspree.io/f/xpzoolnj" method="POST" name="sendMessage" class="contact__form" id="sendMessage">
             <div class="group__form">
             <input type="text" class="form__name form" id="name" placeholder="Full Name" required>
             <label for="name" class="label__name label">Full name</label>
@@ -223,7 +234,7 @@
             <div class="group__form textarea">
               
               <label for="textarea" class="label__area">What do you want ?</label>
-              <textarea name="" id="textarea" cols="20" rows="5"  placeholder="Feel free to contact me" class="textarea" required></textarea>
+              <textarea name="messege" id="textarea" cols="20" rows="5"  placeholder="Feel free to contact me" class="textarea" required></textarea>
 
             </div>
              <button class="click-1">Send</button>

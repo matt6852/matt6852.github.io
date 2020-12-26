@@ -61,34 +61,42 @@ h1 {
   backface-visibility: hidden;
 }
 .click {
-  display: inline-block;
-  margin-top: 4rem;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
-  padding: 1rem;
-  border: 1px solid rgb(66, 64, 64);
-  border-radius: 1.8rem;
-  font-size: 1.8rem;
-  animation-name: hire;
-  animation-duration: 1s;
-  animation-timing-function: ease-out;
-  text-transform: capitalize;
-  outline: none;
-  transition: all 0.3s;
-  color: #4a4e69;
-  letter-spacing: 1px;
-  font-family: "Caveat", cursive;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 4rem;
+    margin-left:auto ;
+    margin-right:auto ;
+    width: 100%;
+    padding:1rem;
+    border: 1px solid rgb(66, 64, 64);
+    border-radius: 1.8rem;
+    font-size: 1.8rem;
+    animation-name: hire;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+    text-transform: capitalize;
+    outline: none;
+    transition: all 0.3s;
+    color: #4a4e69;
+    letter-spacing: 1px;
+    font-family: 'Caveat', cursive;
+    background-color: #bbb;
+    
+
 }
-.click:hover {
-  background-color: #4a4e69;
-  color: #f2e9e4;
-  transform: scale(1.01);
-  box-shadow: 0 2px 10px 2px rgb(204, 211, 236);
-  cursor: pointer;
+
+.click:hover{
+    background-color: #4a4e69;
+   color: #f2e9e4;
+    transform: scale(1.01);
+    box-shadow:  0 2px 10px 2px rgb(204, 211, 236);
+    cursor: pointer;
+    text-decoration: none;
+
 }
-.click:active {
-  transform: scale(0.98);
+.click:active{
+    transform: scale(.98);
 }
 
 @keyframes moveInLeft {
@@ -458,7 +466,49 @@ h1 {
     color: #f2e9e4;
     
 }
+
+.contact__informarion{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.contacnt_info{
+     text-align: center;
+    text-transform: capitalize;
+    padding: 1rem;
+     font-family: 'Caveat', cursive;
+    font-size: 2.5rem;
+       color: #f2e9e4;
+}
+.social-links{
+    height:80%;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.social-link{
+    padding-left: 1rem;
+    margin-left: 1rem;
+       font-family: 'Caveat', cursive;
+       font-size: 2rem;
+       text-transform: capitalize;
     
+
+}
+
+
+.socila-icon{
+    font-size: 3rem;
+ color: #f2e9e4;
+    transition: all .4s;
+    
+}
+.socila-icon:hover{
+    color: #22223b;
+    box-shadow:   5px 5px 5px 5px black;
+}
 
 .contacts__center{
     display: flex;
@@ -469,33 +519,25 @@ h1 {
 .contact-items{
     
     background-color: rgba(255, 255, 0, 0.247);
-    padding: 0.5rem;
-    margin: 1rem;
-    min-width: 65vw;
-    min-height: 40vh;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
+   
     
     background-color: #4a4e69;
     border-radius: 3rem;
      box-shadow: 0 1rem 0.8rem rgba(148, 201, 216, 0.404);
 }
 
-.contact__form{
-    display: flex;
 
-    flex-direction: column;
-    justify-content: space-evenly;
-    width: 100%;
-    height: 100%;
-   
-    
 
-    
+.title-contacts{
+    text-align: center;
+    text-transform: capitalize;
+    padding: 1rem;
+     font-family: 'Caveat', cursive;
+    font-size: 2.5rem;
+       color: #f2e9e4;
 }
 .form__name,.label__name,.form__email,.label__email{
-    margin-top: 2rem ;
+    /* margin-top: 0.3rem ; */
     margin-left: auto;
     margin-right: auto;
     width: 90%;
@@ -563,9 +605,11 @@ h1 {
 
 }
 .button-form{
+    margin: 0 auto;
    align-self: center;
 }
 .button-form-submit{
+      margin: 0 auto;
     display: block;
     padding: 0.8rem 2.5rem;
     border-radius: 5px;
@@ -573,11 +617,12 @@ h1 {
 
 
 .click-1{
-    display: inline-block;
-    margin-top: 4rem;
+    display: block;
+    margin-top: 1rem;
     margin-left:auto ;
     margin-right:auto ;
-    width: 95%;
+    margin-bottom: 1rem;
+    width: 50%;
     padding:1rem;
     border: 1px solid rgb(66, 64, 64);
     border-radius: 1.8rem;
@@ -635,7 +680,20 @@ h1 {
         transition: all .5s;
         color: #f2e9e4;
 }
+    .social-link{
+    padding-left: 2rem;
+    margin-left: 2rem;
+       font-family: 'Caveat', cursive;
+       font-size: 3rem;
+       align-self:baseline;
+}
+.socila-icon{
+    font-size: 4rem;
+ color: #f2e9e4;
+    transition: all .4s;
+    margin-left: 5rem;
     
+}
 
 
 }
