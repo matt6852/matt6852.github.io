@@ -539,6 +539,7 @@ h1 {
 }
 .img_cart {
   width: 100%;
+  border-radius: 5px;
 }
 
 /* Do an horizontal flip when you move the mouse over the flip box container */
@@ -550,6 +551,7 @@ h1 {
 .flip-card-front,
 .flip-card-back {
   position: absolute;
+  border-radius: 5px;
   width: 100%;
   height: 100%;
   -webkit-backface-visibility: hidden; /* Safari */
