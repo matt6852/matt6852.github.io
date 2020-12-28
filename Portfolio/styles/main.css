@@ -605,11 +605,13 @@ h1 {
 }
 .form:focus{
     outline: none;
-       
+       box-shadow: 0 0.8rem 1.3rem  rgba(120, 194, 117, 0.63);
         border-bottom: 5px solid rgb(120, 194, 117);
+        background-color: rgba(247, 247, 247, 0.979);
 
 }
 .form:focus:invalid{
+  box-shadow: 0 0.8rem 1.3rem  rgba(231, 104, 95, 0.678);
     border-bottom: 5px solid rgb(231, 104, 95);
 }
 .textarea{
@@ -623,6 +625,11 @@ h1 {
     border: none;
     outline: none;
     color: #22223b;
+    transition: all .4s;
+
+}
+.textarea:focus{
+   background-color: rgba(247, 247, 247, 0.979);
 
 }
 .button-form{
