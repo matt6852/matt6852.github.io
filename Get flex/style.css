@@ -65,7 +65,7 @@ ul {
   transition: all 0.4s ease-in-out;
 }
 .show__links {
-  height: 180px;
+  height: 220px;
 }
 @media screen and (min-width: 48rem) {
   .nav__links {
@@ -73,7 +73,7 @@ ul {
     justify-content: space-between;
   }
   .show__links {
-    height: 80px;
+    height: 50px;
   }
   .nav__single-link:hover {
     color: black;
