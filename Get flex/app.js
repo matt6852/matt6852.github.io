@@ -1,13 +1,9 @@
 $(document).ready(function () {
   document.querySelector(".nav__btn").addEventListener("click", showNav);
-
   function showNav() {
     document.querySelector(".nav__links").classList.toggle("show__links");
   }
 
-
-  
-  // smooth scrol
   $(".nav__single-link").click(function (link) {
     link.preventDefault();
 
@@ -22,6 +18,7 @@ $(document).ready(function () {
         1000
       );
   });
-
-  // back to-top
 });
+
+
+
