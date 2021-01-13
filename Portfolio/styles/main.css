@@ -495,8 +495,11 @@ h1 {
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
+  display: flex;
+  justify-content: space-between;
 }
 .social-link {
+  width: 80%;
   padding-left: 1rem;
   margin-left: 1rem;
   font-family: "Caveat", cursive;
@@ -673,11 +676,11 @@ h1 {
     padding-left: 2rem;
     margin-left: 2rem;
     font-family: "Caveat", cursive;
-    font-size: 3rem;
+    font-size: 2rem;
     align-self: baseline;
   }
   .socila-icon {
-    font-size: 4rem;
+    font-size: 3rem;
     color: #f2e9e4;
     transition: all 0.4s;
     margin-left: 5rem;
