@@ -495,8 +495,7 @@ h1 {
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
-  display: flex;
-  justify-content: space-between;
+  
 }
 .social-link {
   width: 80%;
@@ -505,6 +504,8 @@ h1 {
   font-family: "Caveat", cursive;
   font-size: 2rem;
   text-transform: capitalize;
+  display: flex;
+  justify-content: space-between;
 }
 
 .socila-icon {
