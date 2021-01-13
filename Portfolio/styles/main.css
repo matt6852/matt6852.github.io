@@ -678,6 +678,8 @@ h1 {
     font-family: "Caveat", cursive;
     font-size: 2rem;
     align-self: baseline;
+    display: flex;
+    justify-content: space-between;
   }
   .socila-icon {
     font-size: 3rem;
