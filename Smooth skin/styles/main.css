@@ -1,52 +1,45 @@
 body {
   background-color: #e6a4e0;
-  
 }
 /* nav-bar */
-.navbar{
+.navbar {
   background-color: #f191e9 !important;
   padding: 1.2rem 1.2rem;
-  transition: all .4s;
+  transition: all 0.4s;
   position: fixed;
   z-index: 100;
   width: 100%;
   border-bottom: 5px solid rgb(124, 119, 119);
-
 }
-.navbar-background{
+.navbar-background {
   padding: 0.5rem 1.2rem;
 }
 
-
-.nav-link{
+.nav-link {
   font-size: 1.5rem;
   padding: 0 3rem;
   text-decoration: none;
   color: rgba(0, 0, 0, 0.767);
-  transition: all .4s;
-  margin:  0 1rem;
-
+  transition: all 0.4s;
+  margin: 0 1rem;
 }
-.nav-link:hover{
+.nav-link:hover {
   color: rgb(88, 85, 85);
   background-color: #ffeaee;
   border-radius: 3rem;
-
 }
-.nav-btn{
-  background-color:#ffeaee ;
+.nav-btn {
+  background-color: #ffeaee;
   border-radius: 2rem;
-  transition: all .4s;
+  transition: all 0.4s;
   font-size: 1.5rem;
 }
 
-.nav-btn:hover{
+.nav-btn:hover {
   color: rgb(218, 106, 106);
-  background-color: rgba(0, 0, 0, 0.466) ;
-   box-shadow: 0 10px 1rem rgb(88, 85, 85);
-
+  background-color: rgba(0, 0, 0, 0.466);
+  box-shadow: 0 10px 1rem rgb(88, 85, 85);
 }
-
 
 /*  end  of nav-bar */
 
@@ -56,22 +49,22 @@ body {
       rgba(2, 0, 36, 0.39) 0%,
       rgba(52, 9, 31, 0.1856092778908438) 100%
     ),
-    url("../img/crystalweed-cannabis-on1uqVJOzA8-unsplash.jpg") center/cover fixed no-repeat;
+    url("../img/crystalweed-cannabis-on1uqVJOzA8-unsplash.jpg") center/cover
+      fixed no-repeat;
   min-height: 100vh;
- 
 }
 .banner-text {
   font-family: "Charmonman", cursive;
   font-weight: 400;
   color: #ffeaee;
- 
+
   padding: 3rem;
   border-radius: 5rem;
 }
-.banner{
+.banner {
   height: 80vh;
 }
-.banner-text-2{
+.banner-text-2 {
   font-family: "Charmonman", cursive;
   font-weight: 400;
   color: #ffeaee;
@@ -116,91 +109,87 @@ body {
 .display {
   font-size: 4rem;
   letter-spacing: 5px;
-  
 }
 @media screen and (max-width: 60rem) {
   .display {
-    font-size: 2rem;
+    padding-top: 8rem;
+    font-size: 1.7rem;
     letter-spacing: 3px;
   }
   .header-link {
     font-size: 1rem;
     top: 95%;
-
   }
-  .nav-item{
+  .nav-item {
     width: 30%;
     padding: 1rem;
     text-align: left;
   }
-  .banner{
-  height: 80vh;
-  flex-direction: column;
-  justify-content: center;
-}
- 
-/* .banner{
+  .banner {
+    height: 80vh;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  /* .banner{
   height: 80Vh;
   display: flex;
   align-items: center;
 } */
-
-  
 }
 
 /* features */
-.img-featur{
+.img-featur {
   border-radius: 50%;
 }
-.left{
- margin-left: 80%;
- margin-right: 0;
+.left {
+  margin-left: 80%;
+  margin-right: 0;
 }
-.card{
-  background-color:#ffc6ff;
+.card {
+  background-color: #ffc6ff;
 }
-.color-btn{
+.color-btn {
   background-color: #ffadad;
 }
-.img{
+.img {
   width: 80%;
 }
 
-.img-div{
+.img-div {
   width: 100%;
 }
 /* icons */
-.footer-icon{
+.footer-icon {
   font-size: 2rem;
   color: #ffeaee;
-  transition: all .4s;
+  transition: all 0.4s;
 }
-.footer-icon:hover{
+.footer-icon:hover {
   color: #ffadad;
 }
 
 /* about */
 
-.about-p{
-    line-height: 2;
-    letter-spacing: 1px;
+.about-p {
+  line-height: 2;
+  letter-spacing: 1px;
 }
 
-.about-btn{
-    font-size: 1rem;
-    color: #ffc8dd;
-    border: 3px solid #ffafcc;
-    background-color: #ffc8dd3f;
-    letter-spacing: 2px;
-    border-radius: 10px;
+.about-btn {
+  font-size: 1rem;
+  color: #ffc8dd;
+  border: 3px solid #ffafcc;
+  background-color: #ffc8dd3f;
+  letter-spacing: 2px;
+  border-radius: 10px;
 }
-.about-btn:hover{
-     color: #fff;
-    background-color:#ffc8ddab ;
-
+.about-btn:hover {
+  color: #fff;
+  background-color: #ffc8ddab;
 }
 
-.sidefect{
+.sidefect {
   font-size: 1.5rem;
   letter-spacing: 1px;
   list-style: 2;
