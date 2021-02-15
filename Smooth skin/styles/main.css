@@ -4,9 +4,13 @@ body {
 }
 /* nav-bar */
 .navbar{
-  background-color: #e6a4e0 !important;
+  background-color: #f191e9 !important;
   padding: 1.2rem 1.2rem;
   transition: all .4s;
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+  border-bottom: 5px solid rgb(124, 119, 119);
 
 }
 .navbar-background{
@@ -52,9 +56,9 @@ body {
       rgba(2, 0, 36, 0.39) 0%,
       rgba(52, 9, 31, 0.1856092778908438) 100%
     ),
-    url("../img/hanna-postova-oha7AANDiL8-unsplash.jpg") center/cover fixed no-repeat;
-  min-height: calc(100vh - 4.7rem);
-  position: relative;
+    url("../img/crystalweed-cannabis-on1uqVJOzA8-unsplash.jpg") center/cover fixed no-repeat;
+  min-height: 100vh;
+ 
 }
 .banner-text {
   font-family: "Charmonman", cursive;
@@ -173,4 +177,31 @@ body {
 }
 .footer-icon:hover{
   color: #ffadad;
+}
+
+/* about */
+
+.about-p{
+    line-height: 2;
+    letter-spacing: 1px;
+}
+
+.about-btn{
+    font-size: 1rem;
+    color: #ffc8dd;
+    border: 3px solid #ffafcc;
+    background-color: #ffc8dd3f;
+    letter-spacing: 2px;
+    border-radius: 10px;
+}
+.about-btn:hover{
+     color: #fff;
+    background-color:#ffc8ddab ;
+
+}
+
+.sidefect{
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+  list-style: 2;
 }
