@@ -366,7 +366,7 @@ h1 {
 .flip-card {
   background-color: transparent;
   width: 300px;
-  height: 300px;
+  height: 380px;
   margin: 1rem auto;
 
   perspective: 1000px;
@@ -458,7 +458,7 @@ h1 {
   }
   .flip-card {
     width: 300px;
-    height: 280px;
+    height: 380px;
   }
 }
 
@@ -495,7 +495,6 @@ h1 {
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
-  
 }
 .social-link {
   width: 80%;
