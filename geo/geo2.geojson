@@ -1,0 +1,28 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [41.4862, 52.8974]
+   },
+   "properties": {
+    "name": "BD СИ 11 (23)",
+    "amount": 10,
+   
+   }
+  }, {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [41.48553, 52.90628]
+   },
+   "properties": {
+    "name": "BD СИ 11 (18)",
+    "amount": 5,
+    
+   }
+  }
+ ]
+}
